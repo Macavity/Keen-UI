@@ -182,8 +182,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 .ui-checkbox-group {
     font-family: $font-stack;

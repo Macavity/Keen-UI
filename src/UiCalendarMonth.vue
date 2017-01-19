@@ -133,8 +133,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 .ui-calendar-month {
     height: ($ui-calendar-cell-size * 6) + $ui-calendar-month-header-height;

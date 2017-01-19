@@ -68,8 +68,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $tooltip-content-margin: 4px !default;
 

@@ -177,8 +177,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-icon-button-size            : 36px !default;
 $ui-icon-button--size-small     : 32px !default;

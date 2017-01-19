@@ -84,7 +84,7 @@
 
 <script>
 import UiIcon from './UiIcon.vue';
-import autofocus from 'directives/autofocus';
+import autofocus from './directives/autofocus';
 
 import autosize from 'autosize';
 
@@ -309,8 +309,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 .ui-textbox {
     align-items: flex-start;

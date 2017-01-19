@@ -59,8 +59,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-snackbar-background-color   : #323232 !default;
 $ui-snackbar-font-size          : 14px !default;

@@ -111,8 +111,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-checkbox-border-width           : 2px !default;
 $ui-checkbox-checkmark-width        : 2px !default;

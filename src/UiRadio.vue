@@ -110,8 +110,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-radio-size                  : 20px !default;
 $ui-radio-stroke                : 2px !default;

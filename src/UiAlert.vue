@@ -81,8 +81,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-alert-color             : rgba(black, 0.75) !default;
 $ui-alert-font-size         : 15px !default;

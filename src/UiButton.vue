@@ -174,8 +174,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-button-font-size            : 14px !default;
 $ui-button-font-size--small     : 14px !default;

@@ -85,7 +85,7 @@ import UiIcon from './UiIcon.vue';
 import UiAutocompleteSuggestion from './UiAutocompleteSuggestion.vue';
 
 import fuzzysearch from 'fuzzysearch';
-import autofocus from 'directives/autofocus';
+import autofocus from './directives/autofocus';
 
 export default {
     name: 'ui-autocomplete',
@@ -390,8 +390,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 .ui-autocomplete {
     align-items: flex-start;

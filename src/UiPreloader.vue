@@ -21,8 +21,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-preloader-duration  : 3s !default;
 $ui-preloader-height    : 3px !default;

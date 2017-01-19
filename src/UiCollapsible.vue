@@ -163,8 +163,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-collapsible-header-background           : $md-grey-200 !default;
 $ui-collapsible-header-background-hover     : $md-grey-300 !default;

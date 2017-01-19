@@ -31,8 +31,8 @@ export default {
 };
 </script>
 
-<style lang="sass">
-@import '~styles/imports';
+<style lang="sass" rel="stylesheet/scss">
+@import './styles/imports.scss';
 
 $ui-icon-font-size  : 24px !default;
 $ui-icon-size       : 1em !default;
